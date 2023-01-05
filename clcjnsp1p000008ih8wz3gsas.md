@@ -1,8 +1,12 @@
 # OptionsMenu deprecated in Fragments ... Now what? - Android
 
+## Context
+
 In version ***1.4.0*** of the `androidx.activity:activity` dependency, **Google** introduced the new `MenuHost` interfaces for activities to make it easier to create menus from any component.
 
 But it was not until ***June 29, 2022,*** when **Google** released version ***1.5.0*** of the `androidx.fragment:fragment` dependency, where it has officially deprecated the old `onCreateOptionsMenu` & `onOptionsItemSelected` override menu functions.
+
+## Comparing code
 
 ### Before
 
